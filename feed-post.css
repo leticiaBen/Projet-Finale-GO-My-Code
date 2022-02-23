@@ -1,0 +1,130 @@
+/* feed post */
+.feed-post{
+    width: 650px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 70px;
+}
+.feed-post-details{
+    width:650px ;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+}
+.feed-post-details-text{
+    font-size: medium;
+    color: rgb(236, 246, 255);
+    font-weight: lighter;
+}
+.line{
+    margin-top: 25px;
+}
+
+   /* box de GENDER et ALL OVER ALGERIA */
+.selectBox{
+    padding: 0;
+    height: 80px;
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+ #box1 {
+    border-style: solid;
+    border-color: white;
+    width: 100px;
+    height: 45px;
+    border-radius: 9px;
+    padding: 0%;
+
+ }
+ #box2{
+    border-style: solid;
+    border-color: white;
+     width: 100px;
+     height: 45px;
+     border-radius: 9px;
+    padding: 0%;
+
+ }
+ #box1-title {
+      margin-top: 8px; 
+     text-align: center;
+     font-size: 20px;
+     color: white;
+    width: 100px;
+    height: 40px;
+ }
+
+ #box2-title{
+     margin-top: 2px;
+     text-align: center;
+     font-size: 15px;
+     color: white;
+    width: 100px;
+    height: 45px;
+ }
+
+.select-box.select-box-list{
+    display:inline-block;
+    position:relative;
+    width: 100px;
+    height: 45px;
+}
+.select-box .select-box-list a{
+    text-align: center;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-size:medium;
+    font-weight: lighter;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+}
+.select-box-list :hover{
+   background-color: rgb(0, 0, 0);
+}
+.select-box-list a:hover{
+height: 30px;
+font-size: larger;
+color: white;
+}
+
+/* dropdown out when hovering */
+.select-box .select-box-list .dropdown {
+    width: 100px;
+    list-style: none;
+    background-color: rgba(255, 254, 254, 0.267);
+    position: absolute;
+}
+
+#dropdown2 a{
+    height: 45px;
+     text-align: center;
+    font-size:medium;
+}
+.select-box .select-box-list .dropdown{
+    display: none;
+}
+.select-box .select-box-list:hover .dropdown{
+    display: block;
+    
+}
+/* posts */
+.posts{
+    background-color: white;
+     width: 100%; 
+    height: 400px;
+}
+.post-utls{
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+    display: flex;
+    justify-content:space-between;
+}
+.img-utls-post1{
+    clip-path:ellipse(50% 40%);
+    
+    
+}
