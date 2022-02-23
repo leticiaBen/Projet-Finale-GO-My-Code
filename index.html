@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/feed-post.css">
+    <link rel="stylesheet" href="css/feed-categories.css">
 </head>
 <body>
+    
     <header>
         <nav class="navigation">
             <div class="logo" id="logo">
@@ -68,20 +71,50 @@
                     <hr class="line">
                 </div>
                 <div class="select">
-                    <select class="select-box1" name="Gender"  >
-                        <option hidden >Gender</option>
-                        <option >Girls+Boys</option>
-                        <option>Girls</option>
-                        <option>Boys</option>
-                    </select>
-                    <select class="select-box2" name="Global">
-                        <option >All Over Algeria</option>
-                        <option >North Algeria</option>
-                        <option >South Algeria</option>
-                        <option >West Algeria</option>
-                        <option >East Algeria</option>
-                    </select>
+                    
+                  <ul class="selectBox">
+                      <div class="select-box" id="box1">
+                        <li class="select-box-list">
+                            <a href="#" id="box1-title">Gender</a>
+                            <ul class="dropdown" id="dropdown1">
+                                <li><a href="#">Girls</a></li>
+                                <li><a href="#">Boys</a></li>
+                                <li><a href="#">Girls+ <br> Boys</a></li>
+                            </ul>
+                      </li>
+                      </div>
+                    <div class="select-box" id="box2">
+                        <li class="select-box-list">
+                            <a href="#" id="box2-title">All Over Algeria</a>
+                            <ul class="dropdown" id="dropdown2">
+                                <li><a href="#">North Algeria</a></li>
+                                <li><a href="#">South Algeria</a></li>
+                                <li><a href="#">West Algeria</a></li>
+                                <li><a href="#">East Algeria</a></li>
+                            </ul>
+                         </li>
+                    </div>
+                     
+ 
+                      
+                  </ul>
                 </div>
+            
+                <div class="posts">
+                    <div class="post-utls">
+                        <img class="img-utls-post1"src="res/post1.jpg" >
+                        <h1 class="nom-utls-post1">Oumeima</h1>
+                        <div class="follow">
+                            <img src="res/iconFollow.svg">
+                            <h1>Follow</h1>
+                        </div>
+                        
+                    </div>
+                    <div class="post-pic">
+
+                    </div>
+                </div>
+
 
              </div>
 
