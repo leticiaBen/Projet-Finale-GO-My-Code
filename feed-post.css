@@ -1,6 +1,6 @@
 /* feed post */
 .feed-post{
-    width: 650px;
+    width: 600px;
     background-color: rgb(0, 0, 0);
     margin-top: 70px;
 }
@@ -34,7 +34,11 @@
     height: 45px;
     border-radius: 9px;
     padding: 0%;
+    background-color:rgba(219, 207, 207, 0.151);
 
+ }
+ #box1:hover{
+     background-color: rgba(250, 4, 4, 0.418);
  }
  #box2{
     border-style: solid;
@@ -43,7 +47,10 @@
      height: 45px;
      border-radius: 9px;
     padding: 0%;
-
+    background-color:rgba(219, 207, 207, 0.151);
+ }
+ #box2:hover{
+     background-color: rgba(250, 4, 4, 0.418);
  }
  #box1-title {
       margin-top: 8px; 
@@ -51,7 +58,7 @@
      font-size: 20px;
      color: white;
     width: 100px;
-    height: 40px;
+    height: 45px;
  }
 
  #box2-title{
@@ -81,9 +88,7 @@
     padding: 0%;
     position: relative;
 }
-.select-box-list :hover{
-   background-color: rgb(0, 0, 0);
-}
+
 .select-box-list a:hover{
 height: 30px;
 font-size: larger;
@@ -94,14 +99,24 @@ color: white;
 .select-box .select-box-list .dropdown {
     width: 100px;
     list-style: none;
-    background-color: rgba(255, 254, 254, 0.267);
+    background-color: rgba(153, 146, 146, 0.781);
     position: absolute;
+
 }
 
+#dropdown1 a{
+    height: 45px;
+}
 #dropdown2 a{
     height: 45px;
      text-align: center;
     font-size:medium;
+}
+#dropdown1 a:hover{
+    background-color: rgb(168, 2, 2);
+}
+#dropdown2 a:hover{
+    background-color: rgb(168, 2, 2);
 }
 .select-box .select-box-list .dropdown{
     display: none;
@@ -112,19 +127,231 @@ color: white;
 }
 /* posts */
 .posts{
+    margin-top: 50px;
     background-color: white;
      width: 100%; 
-    height: 400px;
+    height: 600px;
+    display:flex;
+    flex-direction: column;
+    
 }
+/* POST UTILISATEUR */
 .post-utls{
     width: 100%;
-    height: 80px;
-    background-color: aqua;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
     display: flex;
-    justify-content:space-between;
+    
+
 }
+.post-utls4{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    
+
+}
+/* img utilisateur */
 .img-utls-post1{
-    clip-path:ellipse(50% 40%);
+    margin-left:10px;
+    clip-path:ellipse(50% 40%);  
+    height:80%; 
+}
+.img-utls-post4{
+
+    margin-left:10px;
+    clip-path:ellipse(50% 40%);  
+    height:80%; 
+}
+
+
+
+.nom-utls-post1{
+    margin-top: 10px;
+    margin-left:10px;
+    font-size:medium;
+    font-weight: normal;
+    text-decoration: none;
+    color: white;
+}
+.post-utls a:hover{
+    color: rgba(235, 19, 19, 0.699);
+}
+.follow{
+    background-color: rgb(254, 254, 255); 
+    height: 25px;
+    width: 90px;
+    display: flex;
+    gap:7px;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-top:8px;
+}
+.follow:hover{
+    background-color: rgba(187, 14, 14, 0.658);
+    height: 25px;
+    width: px;
+}
+.follow a:hover{
+    color: black;
+}
+.icon-follow{
+    margin-top: 2.5px;
+    height: 17px; 
+    color: white;
+    margin-left: 5px;
+}
+.text-follow{
+    text-decoration: none;
+    margin-right:4px ;
+    margin-top:1px;
+    color: rgb(0, 0, 0);
+    font-weight: meduim;
+    font-size: 17px;
+}
+/* post caption */
+.post-caption{
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+/* post picture */
+.post-pic1{
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post1.1.jpg);
+    background-position:center;
+}
+.post-pic2{
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post2.jpg);
+    background-repeat: no-repeat;
+    background-position:center left ;
+    background-size: 100%;
+
+}
+.post-pic3{
+    height:560px;
+    
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post3.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: 100%;
+
+}
+.post-pic4{
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post4.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+
+}
+
+.post-pic5{
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post5.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+
+}
+.post-pic6{
+    height:560px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../res/post6.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+
+}
+/* post hype */
+.post-hype{
+    height: 60px;
+    background-color:white;
+    display: flex;
+
+}
+.hype {
+    text-decoration: none;
+     background-color: rgb(0, 0, 0); 
+     margin-top: 5px;
+    margin-left: 20px; 
+    width:90px;
+    height: 40px; 
+     border-radius: 6px; 
+     text-align: center;
+     
+}
+.hype:hover{
+    background-color: rgba(184, 8, 8, 0.986);
+    width:100px;
+    height: 40px;
+}
+.hype a{
+    color: white;
+    text-decoration: none;
+ 
+   width: 30px;
+   height: 15px;
+   font-size: 23px;
+
+
+}
+.save{
+    width:32px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 550px;
     
     
+}
+.fb {
+    position: absolute;
+    width: 35px;
+    margin-top: 10px;
+    margin-left:300px;
+    
+}
+.twitter{
+    position: absolute;
+    width: 35px;
+    margin-top: 10px;
+    margin-left:400px;
+}
+.pinterest{
+    position: absolute;
+    width:35px;
+    margin-top: 10px;
+    margin-left:450px;
+
+}
+.insta{
+    position: absolute;
+    width: 35px;
+    margin-top: 10px;
+    margin-left:350px;
+
+}
+.insta:hover{
+    color: blueviolet;
+
+}
+i{
+    position: absolute;
+    margin-left:200px;
+    color: black;
+    width: 50px;
+    height: 50px;
 }

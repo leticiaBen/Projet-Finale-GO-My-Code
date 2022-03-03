@@ -77,10 +77,7 @@ flex-direction: column;
 gap: 20px;
 
 }
-.join :hover{
-    background-color: rgba(199, 214, 214, 0.356);
-    border-radius: 10px;
-}
+
 .sign-fb{
     display: flex;
     justify-content: space-between;
@@ -90,7 +87,9 @@ gap: 20px;
     border-radius: 10px;
     border-style: solid;
 
-
+}
+.sign-fb:hover{
+    background-color: white;
 }
 .sign-email{
     display: flex;
@@ -100,7 +99,9 @@ gap: 20px;
     background-color: rgba(255, 255, 255, 0.199);
     border-radius: 10px;
     border-style: solid;
-
+}
+.sign-email:hover{
+    background-color: white;
 }
 #icon{
     height: 25px;
